@@ -2,8 +2,8 @@
 %define		_class		Image
 %define		_subclass	GraphViz
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - Interface to AT&T's GraphViz tools
-Summary(pl):	%{_class}_%{_subclass} - interfejs do narzêdzi GraphViz AT&T
+Summary:	%{_pearname} - Interface to AT&T's GraphViz tools
+Summary(pl):	%{_pearname} - interfejs do narzêdzi GraphViz AT&T
 Name:		php-pear-%{_pearname}
 Version:	0.2
 Release:	1
