@@ -24,14 +24,14 @@ The GraphViz class allows for the creation of and the work with
 directed and undirected graphs and their visualization with AT&T's
 GraphViz tools.
 
-This class has in PEAR status: %{_status}
+This class has in PEAR status: %{_status}.
 
 %description -l pl
 Klasa GraphViz pozwala na tworzenie oraz pracê z bezpo¶rednimi i
 niebezpo¶rednimi grafami, a tak¿e ich wizualizacjê za pomoc± narzêdzi
 GraphViz AT&T.
 
-Ta klasa ma w PEAR status: %{_status}
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
