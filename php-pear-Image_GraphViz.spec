@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - Interface to AT&T's GraphViz tools
 Summary(pl):	%{_pearname} - interfejs do narzêdzi GraphViz AT&T
 Name:		php-pear-%{_pearname}
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	45b47d429beb7c99f57d510fa7e65284
+# Source0-md5:	19e0fae22907225db28a0c8cce80a74f
 URL:		http://pear.php.net/package/Image_GraphViz/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
