@@ -24,7 +24,7 @@ The GraphViz class allows for the creation of and the work with
 directed and undirected graphs and their visualization with AT&T's
 GraphViz tools.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Klasa GraphViz pozwala na tworzenie oraz pracê z bezpo¶rednimi i
