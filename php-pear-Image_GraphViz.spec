@@ -1,18 +1,19 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Image
 %define		_subclass	GraphViz
-%define		_status		stable
+%define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Interface to AT&T's GraphViz tools
 Summary(pl):	%{_pearname} - interfejs do narzêdzi GraphViz AT&T
 Name:		php-pear-%{_pearname}
-Version:	1.0.3
-Release:	2
+Version:	1.1.0
+%define		_suf beta1
+Release:	0.%{_suf}.1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	19e0fae22907225db28a0c8cce80a74f
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}%{_suf}.tgz
+# Source0-md5:	9f77c3a317e6b3f8c6074998fb1bee9c
 URL:		http://pear.php.net/package/Image_GraphViz/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
@@ -34,13 +35,13 @@ GraphViz AT&T.
 Ta klasa ma w PEAR status: %{_status}.
 
 %prep
-%setup -q -c
+%setup -q -c -n %{name}-%{version}%{_suf}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}
 
-install %{_pearname}-%{version}/*.php $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}/
+install %{_pearname}-%{version}%{_suf}/*.php $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}/
 
 %clean
 rm -rf $RPM_BUILD_ROOT
