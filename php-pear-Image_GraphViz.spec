@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Interface to AT&T's GraphViz tools
-Summary(pl):	%{_pearname} - interfejs do narzêdzi GraphViz AT&T
+Summary(pl.UTF-8):   %{_pearname} - interfejs do narzÄ™dzi GraphViz AT&T
 Name:		php-pear-%{_pearname}
 Version:	1.2.1
 Release:	1
@@ -28,9 +28,9 @@ GraphViz tools.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasa GraphViz pozwala na tworzenie oraz pracê z bezpo¶rednimi i
-niebezpo¶rednimi grafami, a tak¿e ich wizualizacjê za pomoc± narzêdzi
+%description -l pl.UTF-8
+Klasa GraphViz pozwala na tworzenie oraz pracÄ™ z bezpoÅ›rednimi i
+niebezpoÅ›rednimi grafami, a takÅ¼e ich wizualizacjÄ™ za pomocÄ… narzÄ™dzi
 GraphViz AT&T.
 
 Ta klasa ma w PEAR status: %{_status}.
