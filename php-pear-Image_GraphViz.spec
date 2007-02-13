@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Interface to AT&T's GraphViz tools
-Summary(pl.UTF-8):   %{_pearname} - interfejs do narzędzi GraphViz AT&T
+Summary(pl.UTF-8):	%{_pearname} - interfejs do narzędzi GraphViz AT&T
 Name:		php-pear-%{_pearname}
 Version:	1.2.1
 Release:	1
