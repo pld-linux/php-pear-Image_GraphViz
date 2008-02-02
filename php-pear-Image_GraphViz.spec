@@ -3,12 +3,11 @@
 %define		_subclass	GraphViz
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
-
 Summary:	%{_pearname} - Interface to AT&T's GraphViz tools
 Summary(pl.UTF-8):	%{_pearname} - interfejs do narzędzi GraphViz AT&T
 Name:		php-pear-%{_pearname}
 Version:	1.2.1
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
